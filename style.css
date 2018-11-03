@@ -25,7 +25,8 @@
 	margin:0 auto;
 	width:960px;
 }
-.side-bar-left{
+
+.sidebar-left{
 	height:1400px;
 	width:230px;
 	background-color: palegreen;
@@ -37,11 +38,12 @@
 	background-color: limegreen;
 	float:left;
 }
-.side-bar-right{
+
+.sidebar-right{
 	height: 1400px;
 	width:230px;
 	background-color: palegreen;
-	float:left;
+	float:right;
 }
 .footer{
 	height:100px;
