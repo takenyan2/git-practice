@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.header-content{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+
+}
+
+.head-img{
+	background-size: cover;
+	background-position: center;
+	height:70px;
+	width:10%;
+}
+
+.menu-list{
+	font-size: 16px;
+	color: #FAFAFA;
+	padding:27px 30px;
+	list-style: none;
+	float:right;
+}
+
+main{
+	width: 100%;
+}
+
+.main-visual-content1{
+	margin:0 auto;
+	background-image: url(img1-10/mv.png);
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height: 650px;
+}
+
+.main-visual-text{
+	color: #FAFAFA;
+	font-size: 64px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.main-visual-name{
+	color: #FAFAFA;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+.main-visual-content2{
+	background-color: #ECEFF1;
+	width:100%;
+	height: 881px;
+}
+
+.main-content2{
+	width:920px;
+	margin:0 auto;
+}
+
+.content2-title{
+	font-size: 32px;
+	color:#000000;
+	padding:90px 0px 8px 0px;
+	text-align: center;
+}
+.content2-text{
+	font-size: 16px;
+	color:#000000;
+	padding:30px 0px;
+	text-align: center;
+	border-top:;
+}
+
+.content2-imgs{
+	
+	padding-bottom:30px;
+	margin-right: 0 auto;
+}
+
+.content2-title::after{
+	content: "";
+	display:block;
+	clear:box;
+	width:70px;
+	height:3px;
+	margin:8px auto 0px auto;
+	background-color: #EC715F;
+}
+
+ul{
+	list-style: none;
+}
+
+.img1{
+	background-image: url(img1-10/sketch.jpg);
+	margin:0px 10px 10px 0px;
+	width:300px;
+	height:250px;
+	float:left;
+	background-size: cover;
+	background-position: center;
+}
+.img2{
+	background-image: url(img1-10/websuku.png);
+	margin:0px 10px 10px 0px;
+	width:300px;
+	height:250px;
+	float:left;
+	background-size: cover;
+	background-position: center;
+}
+.img3{
+	background-image: url(img1-10/write.jpg);
+	margin:0px 0px 10px 0px;
+	width:300px;
+	height:250px;
+	float:left;
+	background-size: cover;
+	background-position: center;
+}
+.img4{
+	background-image: url(img1-10/webcamp.png);
+	margin:0px 10px 0px 0px;
+	width:300px;
+	height:250px;
+	float:left;
+	background-size: cover;
+	background-position: center;
+}
+.img5{
+	background-image: url(img1-10/talk.jpg);
+	margin:0px 10px 0px 0px;
+	width:300px;
+	height:250px;
+	float:left;
+	background-size: cover;
+	background-position: center;
+}
+.img6{
+	background-image: url(img1-10/webcamp-mother.png);
+	margin:0px;
+	width:300px;
+	height:250px;
+	float:left;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+
