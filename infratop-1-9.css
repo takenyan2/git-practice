@@ -119,12 +119,6 @@ main{
 }
 
 
-.main-box{
-	width:100%;
-	margin-bottom: 20px;
-	margin-bottom: 20px;
-}
-
 .main-box:last-child{
     margin-bottom: 0;
 }
